@@ -1,0 +1,42 @@
+.container-list-category {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.list-category {
+  list-style: none;
+  padding: 0;
+}
+
+.list-category li {
+  margin-bottom: 10px;
+  border: 2px solid;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.list-category li a {
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.list-category li a:hover {
+  color: #007bff;
+}

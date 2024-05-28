@@ -1,0 +1,43 @@
+.container-lesson-list {
+  max-width: 800px;
+  min-height: 45vh;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container-lesson-list h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.lesson-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.lesson-item p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.lesson-item button {
+  background-color: #87c0cd;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lesson-item button:hover {
+  background-color: #78bbcb;
+}

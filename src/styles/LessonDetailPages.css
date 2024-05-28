@@ -1,0 +1,69 @@
+.container-lesson-detail {
+  max-width: 800px;
+  min-height: 45vh;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.lesson-detail {
+  border-radius: 8px;
+  padding: 20px;
+  padding-inline: 90px;
+}
+
+.lesson-detail h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.lesson-detail p {
+  margin-bottom: 20px;
+  display: flex;
+  text-align: justify;
+  white-space: pre-line;
+}
+
+.lesson-detail h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.lesson-detail #notfound {
+  font-size: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.lesson-detail table {
+  width: 100%;
+}
+
+.title-chapter {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.lesson-detail table td {
+  text-align: left;
+}
+
+.lesson-detail button {
+  background-color: #87c0cd;
+  color: white; /* Warna teks */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.lesson-detail button:hover {
+  background-color: #6293a2; /* Warna latar belakang saat hover */
+}

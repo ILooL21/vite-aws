@@ -1,0 +1,44 @@
+.container-exercise {
+  max-width: 800px;
+  min-height: 45vh;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container-exercise h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container-exercise img {
+  max-width: 600px;
+  margin-bottom: 20px;
+  padding-left: 200px;
+}
+
+.container-exercise h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.container-exercise input[type="radio"] {
+  margin-right: 10px;
+}
+
+.container-exercise label {
+  font-size: 20px;
+}
+
+.container-exercise button {
+  background-color: #87c0cd;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container-exercise button:hover {
+  background-color: #78bbcb;
+}
